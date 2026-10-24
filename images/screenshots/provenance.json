@@ -1,0 +1,40 @@
+{
+  "version": "0.1.9",
+  "browser": "155.0.8059.85",
+  "type": "native extension / simulated conversation / no real account",
+  "shots": [
+    {
+      "name": "merged-light.png",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "name": "split-light.png",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "name": "merged-left-dark.png",
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "name": "settings.png",
+      "width": 720,
+      "height": 850
+    }
+  ],
+  "sourceHashes": {
+    "manifest.json": "458c84cd62a5e004fd09acd3714411c7691c7a6695b2bc0a43d114d55eb17c18",
+    "src/settings.js": "01cfd7401fe11396acad6ee7e063b03e8d5926e6c5dc2e3ec8e142ed9636ff72",
+    "src/content/dom-adapter.js": "6ae1cc029669962093ee2dc4e8b55baa99d7313ac7772887397aafe9fab74f8a",
+    "src/content/history-loader.js": "be1c4cda84eea6ec0c8eaa8952c61fc6f0ebce339c8ac8a205b64dda1fffa4f1",
+    "src/content/sidebar.js": "0bebe3ad4d1527d9cea5463afe2cbeef6b7b58092d7dba2c66f363811f4735f2",
+    "src/content/message-outline.js": "b6bceb024ff07b25443941d411b033ba46a7317c11304f89337cf2bc1a8c4168",
+    "src/content/index.js": "5bb58de2cbd6de78e2733546c95de9204cbeb378ed5288c3df7fb3c020446f33",
+    "src/content/styles.css": "b5eb9ebe1015814616e0bc147d8203117bd96b446cc6251679a848dfb9c7105b",
+    "src/options/options.html": "2169d838bb194bcc520485157abe78b99ae7278522a76c8b581fef556dbc7478",
+    "src/options/options.js": "75d3385d4128233ffbc766522a4c3b223635680c00ae68c97b996dfaa3729bd4",
+    "src/options/options.css": "1636cc6d072cdcb916fd3dd0cf788e560ac28d1ef6f3613782d8c81a19c5ab3b"
+  }
+}

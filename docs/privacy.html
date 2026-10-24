@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatGPT Outline Navigator 隐私政策</title>
+<style>body{max-width:760px;margin:48px auto;padding:0 24px;color:#1f2937;background:#fff;font:16px/1.8 system-ui,sans-serif}h1{font-size:28px;line-height:1.4}h2{font-size:20px;margin-top:32px}a{color:#1d4ed8}li{margin:8px 0}</style>
+<main>
+<h1>ChatGPT Outline Navigator 隐私政策</h1>
+<p>更新日期：2026-10-24</p>
+<p>ChatGPT Outline Navigator（ChatGPT 会话目录）在当前浏览器中为 ChatGPT 会话生成问题目录与回答章节导航。本项目为独立开发工具，与 OpenAI 无关联。</p>
+<h2>读取与保存的内容</h2>
+<ul>
+<li>仅在 <code>https://chatgpt.com/*</code> 页面读取已显示的问答和标题，用于生成目录、定位章节及同步阅读位置。</li>
+<li>在浏览器扩展本地存储中保存布局、主题和目录缓存。缓存包含问题标题、回答章节标题、会话和消息标识、滚动定位、页面尺寸及更新时间，不保存完整回答正文。</li>
+<li>最多保留最近 10 个会话的目录，每份最多 400KB。超过 7 天的缓存不再复用，并在下次成功保存目录时清理；过大的目录仅保留在当前页面内存中。</li>
+</ul>
+<p>问题和章节标题可能包含用户输入的个人信息。本地处理仍会读取相关会话内容。</p>
+<h2>数据流向</h2>
+<p>扩展不向开发者或第三方上传会话、目录或设置，不使用统计、广告、远程执行脚本或外部 AI 接口。没有读取认证令牌、密码或其他网站浏览历史的功能。设置和目录缓存不跨浏览器同步。</p>
+<p>首次扫描完整历史时会自动滚动会话，可能触发 ChatGPT 网站加载更早的消息。用户可停止扫描；网站自身的数据处理由其隐私政策约束。</p>
+<h2>权限与控制</h2>
+<p><code>storage</code> 权限用于保存设置和目录缓存；内容脚本仅在 chatgpt.com 运行。扩展不申请其他网站访问范围。</p>
+<p>用户可停用扩展或撤销网站访问权限来停止处理，并通过浏览器管理扩展本地数据。过期条目在下次成功保存目录时清理，并非由后台定时任务删除。</p>
+<h2>联系与更新</h2>
+<p>通过项目仓库的 <a href="https://github.com/Echogithu/ChatGPT-Outline-Public/issues">GitHub Issues</a> 提供支持。请勿在公开问题中提交个人会话、账号凭证或敏感截图。</p>
+<p>未来如果增加适配站点、同步、上传或其他数据处理能力，将更新本说明及商店对应的数据声明。</p>
+</main>
+</html>

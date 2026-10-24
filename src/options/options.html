@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT Outline Navigator · 目录配置</title>
+  <link rel="stylesheet" href="options.css">
+  <script src="../settings.js" defer></script>
+  <script src="options.js" defer></script>
+</head>
+<body><main>
+  <h1>目录配置</h1>
+  <form><fieldset disabled>
+    <legend>导航布局</legend>
+    <label><input type="radio" name="layout" value="merged"><span>
+      <strong>右侧合并菜单</strong>
+      <span class="preview" aria-hidden="true"><i>会话正文</i><b>问题<br>└ 答案大纲</b></span>
+    </span></label>
+    <label><input type="radio" name="layout" value="merged-left"><span>
+      <strong>左侧合并菜单</strong>
+      <span class="preview" aria-hidden="true"><b>问题<br>└ 答案大纲</b><i>会话正文</i></span>
+    </span></label>
+    <label><input type="radio" name="layout" value="questions-left"><span>
+      <strong>左侧问题 · 右侧答案大纲</strong>
+      <span class="preview" aria-hidden="true"><b>问题</b><i>会话正文</i><b>答案大纲</b></span>
+    </span></label>
+    <label><input type="radio" name="layout" value="outline-left"><span>
+      <strong>左侧答案大纲 · 右侧问题</strong>
+      <span class="preview" aria-hidden="true"><b>答案大纲</b><i>会话正文</i><b>问题</b></span>
+    </span></label>
+    <h2>主题</h2>
+    <div class="themes" role="group" aria-label="主题">
+      <label><input type="radio" name="theme" value="light"><span>亮色</span></label>
+      <label><input type="radio" name="theme" value="dark"><span>暗色</span></label>
+    </div>
+    <button type="submit">保存设置</button>
+  </fieldset></form>
+  <p id="status" role="status" aria-live="polite">正在读取设置…</p>
+</main></body>
+</html>
